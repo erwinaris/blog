@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 baseURL = "https://erwinaris.github.io/"
+=======
+baseURL = "http://erwinaris.github.io/"
+>>>>>>> b466d83469e5435c4ee513ac257ba287fe72fe38
 languageCode = "en-us"
 title = "Hi, There !"
 description = "Welcome to my website for learn to programming"
@@ -11,12 +15,17 @@ aboutTitle = "About Me"
 about = """My name is Erwin Aris prayogo, i live in Lampung, Indonesia. More than 2 years experience in web developer and mobile developer include wordpress development,
             flutter development, hugo development, python, php, and dart.
             I use GNU/Linux to create and write the code computer program."""
+<<<<<<< HEAD
 keywords = "blog, erwin"
+=======
+keywords = ""
+>>>>>>> b466d83469e5435c4ee513ac257ba287fe72fe38
 images = ["/img/about-hero.jpg"]
 
 
 ############### css and javascript ##################
 
+<<<<<<< HEAD
 
 [[ params.plugins.css]]
 URL = "plugins/css/materialize.min.css"
@@ -26,12 +35,22 @@ URL = "plugins/css/materialize.css"
 
 [[ params.plugins.js ]]
 URL = "plugins/js/materialize.js"
+=======
+[[ params.plugins.css ]]
+URL = "plugins/css/materialize.css"
+[[ params.plugins.css]]
+URL = "plugins/css/materialize.min.css"
+>>>>>>> b466d83469e5435c4ee513ac257ba287fe72fe38
 
 [[ params.plugins.js ]]
 URL = "plugins/js/materialize.min.js"
 
 [[ params.plugins.js ]]
+<<<<<<< HEAD
 URL = "plugins/js/initialize.js"
+=======
+URL = "plugins/js/materialize.js"
+>>>>>>> b466d83469e5435c4ee513ac257ba287fe72fe38
 
 
 ########### icons fontawesome ################
