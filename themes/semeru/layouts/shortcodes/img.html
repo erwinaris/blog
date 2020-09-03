@@ -1,0 +1,16 @@
+<!-- <img class="materialboxed" width="300" src="{{ . }}"> -->
+
+
+<div class="container">
+    <div class="row">
+       
+        <div class="col m4 s12">
+            {{ if .IsNamedParams }}
+            <img class="materialboxed responsive-img" width="300" src="{{.Get "src" }}" alt="">
+            {{ else }}
+            <img class="materialboxed responsive-img" width="300" src="{{.Get 0}}" alt="">
+            {{ end }}
+        </div>
+     
+    </div>
+</div>

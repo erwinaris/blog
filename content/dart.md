@@ -1,5 +1,5 @@
 +++
-title = "coming soon"
+title = "Bahasa Dart"
 date = "2019-04-05"
 aliases = ["about-us","about-hugo","contact"]
 type = "about"
@@ -8,3 +8,7 @@ type = "about"
 +++
 
 ### ini bagian dari content
+
+
+
+
