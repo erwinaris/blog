@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-us{{ end }}">
+    {{- partial "head.html" . -}}
+    <body class="grey darken-4">
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}
+        {{ .Content }}
+        {{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+
+        {{ range .Site.Params.plugins.js }}
+        <script src="{{ .URL | absURL }}"></script>
+        {{ end }}
+        
+        <script src="plugins/jquery/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="https://kit.fontawesome.com/00c6815820.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+
