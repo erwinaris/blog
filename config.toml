@@ -1,0 +1,59 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hi, There !"
+description = "Welcome to my website for learn to programming"
+
+theme = "semeru"
+
+[params]
+description = "Welcome to my website for learn to programming"
+aboutTitle = "About Me"
+about = """My name is Erwin Aris prayogo, i live in Lampung, Indonesia. More than 2 years experience in web developer and mobile developer include wordpress development,
+            flutter development, hugo development, python, php, and dart.
+            I use GNU/Linux to create and write the code computer program."""
+keywords = ""
+images = ["/img/about-hero.jpg"]
+
+
+############### css and javascript ##################
+
+[[ params.plugins.css ]]
+URL = "plugins/css/materialize.css"
+[[ params.plugins.css]]
+URL = "plugins/css/materialize.min.css"
+
+[[ params.plugins.js ]]
+URL = "plugins/js/materialize.min.js"
+
+[[ params.plugins.js ]]
+URL = "plugins/js/materialize.js"
+
+
+########### icons fontawesome ################
+
+[[ params.icons ]]
+icon = "fab fa-facebook-square"
+link = "https://web.facebook.com/erwin.prayoga.359/"
+
+[[ params.icons ]]
+icon = "fab fa-instagram"
+link = "https://www.instagram.com/erwin_aris_prayogo/"
+
+[[ params.icons ]]
+icon = "fab fa-linkedin"
+link = "https://www.linkedin.com/in/erwin-aris-prayogo-504119157/"
+
+[[ params.icons ]]
+icon = "fab fa-github-square"
+link = "https://github.com/erwinaris"
+
+
+################## menu #######################
+[ menu ]
+    [[ menu.main ]]
+    name = "Dart"
+    URL = "dart"
+
+    [[ menu.main ]]
+    name = "Portfolio"
+    URL = "#"

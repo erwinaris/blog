@@ -1,0 +1,13 @@
+img
+{
+    height: 150px;
+    width: 150px;
+}
+
+.horizontal
+{
+    display: block;
+    float: right;
+    padding: 5px;
+    
+}
