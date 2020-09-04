@@ -1,13 +1,13 @@
 +++
 title = "Bahasa Dart"
-date = "2019-04-05"
+date = "2020-04-02"
 aliases = ["about-us","about-hugo","contact"]
-type = "about"
+type = "dart"
 [ author ]
   name = "erwin aris prayogo"
 +++
 
-### ini bagian dari content
+### coming soon !
 
 
 

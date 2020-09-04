@@ -1,16 +1,26 @@
-<!-- <img class="materialboxed" width="300" src="{{ . }}"> -->
-
-
 <div class="container">
     <div class="row">
-       
+        <h5>Wordpress Development</h5>
         <div class="col m4 s12">
             {{ if .IsNamedParams }}
-            <img class="materialboxed responsive-img" width="300" src="{{.Get "src" }}" alt="">
+            <img class="materialboxed responsive-img" data-caption="{{ .Get "caption" }}" width="300"
+                src="{{.Get "src" }}" alt="">
             {{ else }}
-            <img class="materialboxed responsive-img" width="300" src="{{.Get 0}}" alt="">
+            <img class="materialboxed responsive-img" data-caption="{{ .Get "caption" }}" width="300" src="{{.Get 0}}"
+                alt="">
             {{ end }}
         </div>
-     
+
+        <!-- hardcoding images -->
+        <div class="col m4 s12">
+            <img src="/portfolio/keum.png" alt="" class="materialboxed responsive-img">
+        </div>
+
+        <div class="col m4 s12">
+            <img src="/portfolio/man.png" alt="" class="materialboxed responsive-img">
+        </div>
+
+        <!-- belum nemu solusi coding img -->
+
     </div>
 </div>

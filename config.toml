@@ -1,12 +1,12 @@
 baseURL = "https://erwinaris.github.io/"
 languageCode = "en-us"
 title = "Hi, There !"
-description = "Welcome to my website for learn to programming"
+description = "Welcome to my website. learn everything, make something."
 
 theme = "semeru"
 
 [params]
-description = "Welcome to my website for learn to programming"
+description = "Welcome to my website"
 aboutTitle = "About Me"
 about = """My name is Erwin Aris prayogo, i live in Lampung, Indonesia. More than 2 years experience in web developer and mobile developer include wordpress development,
             flutter development, hugo development, python, php, and dart.
@@ -64,11 +64,12 @@ link = "https://github.com/erwinaris"
 
     [[ menu.main ]]
     name = "Dart"
-    URL = "dart"
+    identifier = "dart"
+    URL = "/dart/"
     weight = 2
 
     [[ menu.main ]]
     name = "Portfolio"
     identifier = "portfolio"
-    URL = "#"
+    URL = "/portfolio/"
     weight = 3
