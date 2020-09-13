@@ -13,7 +13,7 @@
     <img src="img/about-hero.jpg" alt="" class="circle">
     <div class="container white-text">
         <p>
-            {{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}
+            {{ .Site.Params.desc }}
         </p>
         <ul class="collapsible">
             <li>
@@ -32,4 +32,3 @@
         </div>
     </div>
 </div>
-
