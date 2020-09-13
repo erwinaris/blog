@@ -5,10 +5,7 @@
 <body class="grey darken-4">
         {{- partial "header.html" . -}}
         <main id="content">
-                {{- block "main" . }}
-
-                {{- end }}
-
+                {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
 
