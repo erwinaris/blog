@@ -1,18 +1,18 @@
 {{ define "main" }}
 
-<div class="container white-text center">
-    <h4 class="z-depth-3">{{ .Title }}</h4>
-    <div class="divider"></div><br>
+<div class="container white-text">
+  <h4 class="z-depth-3 center">{{ .Title }}</h4>
+  <div class="divider"></div><br>
     {{ .Content }}
 </div>
 
 
 <ul class="pagination center">
-    <li class="disabled"><a href="#!"><i class="fas fa-arrow-left"></i></a></li>
-    <li class="active"><a href="#!">1</a></li>
-    <li class="waves-effect"><a href="#!">2</a></li>
-    <li class="waves-effect"><a href="#!"><i class="fas fa-arrow-right"></i></a></li>
-  </ul>
-            
+  <li class="disabled"><a href="#!"><i class="fas fa-arrow-left"></i></a></li>
+  <li class="active"><a href="#!">1</a></li>
+  <li class="waves-effect"><a href="#!">2</a></li>
+  <li class="waves-effect"><a href="#!"><i class="fas fa-arrow-right"></i></a></li>
+</ul>
+
 
 {{ end }}
