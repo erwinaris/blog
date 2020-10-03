@@ -10,11 +10,13 @@
     </div>
     <ul>
         <!-- Ranges through content/posts/*.md -->
+        {{"<!-- li -->" | safeHTML}}
         {{ range .Pages.ByPublishDate }}
         <li>
             <a href="{{.Permalink}}" class="btn-flat teal-text lighten-2 flow-text">{{.Title}}<span class="new badge blue" data-badge-caption="posts">{{.Date.Format "2006-01-02"}}</span></a>
         </li>
         {{ end }}
+        {{"<!-- li -->" | safeHTML}}
     </ul>
 </div>
 {{ end }}
