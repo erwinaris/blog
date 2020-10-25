@@ -1,0 +1,23 @@
+---
+label: hello world flutter
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: aliases
+  label: aliases
+- type: text
+  name: type
+  label: type
+- type: field_group
+  name: author
+  label: author
+  fields:
+  - type: text
+    name: name
+    label: name
