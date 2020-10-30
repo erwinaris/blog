@@ -72,4 +72,4 @@ void main(List<String> args) {
 
 Pemilihan yang melibatkan lebih dari satu kasus.
 
-1. form kontrol lagi dan lagi
+1. form kontrol lagi dan lagi control
