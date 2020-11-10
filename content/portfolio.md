@@ -11,7 +11,3 @@ name = "erwin aris prayogo"
 
 {{< img src="/portfolio/bumdesbenah.png" caption="Bumdes adalah Badan Usaha Milik Desa">}}
 
-![](/uploads/portkeumsutech.png)
-
-
-saya coba hapus lagi dan lagi

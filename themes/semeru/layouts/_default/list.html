@@ -13,7 +13,7 @@
         {{"<!-- li -->" | safeHTML}}
         {{ range .Pages.ByPublishDate }}
         <li>
-            <a href="{{ .URL }}" class="btn-flat teal-text lighten-2 flow-text">{{.Title}}<span class="new badge blue" data-badge-caption="posts">{{.Date.Format "2006-01-02"}}</span></a>
+            <a href="{{ .RelPermalink }}" class="btn-flat teal-text lighten-2 flow-text">{{.Title}}<span class="new badge blue" data-badge-caption="posts">{{.Date.Format "2006-01-02"}}</span></a>
         </li>
         {{ end }}
         {{"<!-- li -->" | safeHTML}}
