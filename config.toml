@@ -3,13 +3,14 @@ languageCode = "en-us"
 title = "Hi, There !"
 description = "Welcome to my website, learn everything, make something."
 
+
 theme = "semeru"
 
 [params]
 desc = "Welcome to my website"
 aboutTitle = "About Me"
-about = """My name is Erwin Aris prayogo, i live in Lampung, Indonesia. More than 2 years experience in web developer and mobile developer include wordpress development,
-            flutter development, hugo development, python, php, and dart.
+about = """My name is Erwin Aris prayogo, I live in Lampung, Indonesia. More than 2 years experience in web development and mobile development include wordpress,
+            flutter, hugo, python, php, and dart.
             I use GNU/Linux to create and write the code computer program."""
 keywords = "blog, erwin"
 images = ["/img/about-hero.jpg"]

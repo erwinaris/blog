@@ -1,11 +1,13 @@
 {{ define "main" }}
 
-<div class="container white-text">
-  <h4 class="z-depth-3 center">{{ .Title }}</h4>
+<div class="container">
+  <h4 class="center white-text">{{ .Title }}</h4>
   <div class="divider"></div><br>
-    {{ .Content }}
-</div>
 
+  <div class="blue-grey-text">
+    {{ .Content }}
+  </div>
+</div>
 
 <ul class="pagination center">
   <li class="disabled"><a href="#!"><i class="fas fa-arrow-left"></i></a></li>

@@ -1,33 +1,39 @@
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <title>{{ .Title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}" />{{ end }}
-    {{ if .IsPage }}
-    {{ with .Params.images }}
-       {{ range first 6 . }}
-         <meta property="og:image" content="{{ . | absURL }}" />
-       {{ end }}
-     {{ end }}
-    {{ else }}
-    {{ with .Site.Params.images }}
-       {{ range first 6 . }}
-         <meta property="og:image" content="{{ . | absURL }}" />
-       {{ end }}
-    {{ end }}
-    {{ end }}
-    <!--Import Google Icon Font-->
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <title>{{ .Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.keywords }}
+  <meta name="keywords" content="{{ . }}" />{{ end }}
+  {{ if .IsPage }}
+  {{ with .Params.images }}
+  {{ range first 6 . }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
+  {{ end }}
+  {{ else }}
+  {{ with .Site.Params.images }}
+  {{ range first 6 . }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  <!--Import Google Icon Font-->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    {{ range .Site.Params.plugins.css }}
-    <link rel="stylesheet" href="{{ .URL | absURL }}">
-    {{ end }}
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ range .Site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .URL | absURL }}">
+  {{ end }}
 
-    <link rel="stylesheet" href="/css/style.css">
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ `favicon.png` | absURL }} " type="image/x-icon">
+  <link rel="icon" href="{{ `favicon.png` | absURL }} " type="image/x-icon">
+
+  <link rel="stylesheet" href="/css/style.css">
 
 </head>

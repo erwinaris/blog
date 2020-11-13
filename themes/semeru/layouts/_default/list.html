@@ -2,18 +2,18 @@
 <div class="container">
     <div>
         <div>
-            <h3 class="white-text center z-depth-3">{{.Title}}</h3>
+            <h4 class="white-text center">{{.Title}}</h4>
             <div class="divider"></div><br>
         </div>
         <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
         <!-- {{.Content}} -->
     </div>
-    <ul>
+    <ul class="hover list">
         <!-- Ranges through content/posts/*.md -->
         {{"<!-- li -->" | safeHTML}}
         {{ range .Pages.ByPublishDate }}
         <li>
-            <a href="{{ .RelPermalink }}" class="btn-flat teal-text lighten-2 flow-text">{{.Title}}<span class="new badge blue" data-badge-caption="posts">{{.Date.Format "2006-01-02"}}</span></a>
+            <a href="{{ .RelPermalink }}" class="btn-flat flow-text">{{.Title}}<span class="new badge blue" data-badge-caption="posts">{{.Date.Format "2006-01-02"}}</span></a>
         </li>
         {{ end }}
         {{"<!-- li -->" | safeHTML}}

@@ -1,6 +1,6 @@
 <div class="container center">
     <h4 class="blue-grey-text lighten-5">{{ .Title }}</h4>
-<!-- 
+    <!-- 
     <div class="container">
         <div class="progress">
             <div class="indeterminate"></div>
@@ -11,7 +11,7 @@
 
 <div class="container center images">
     <img src="img/about-hero.jpg" alt="" class="circle">
-    <div class="container white-text">
+    <div class="container blue-grey-text">
         <p>
             {{ .Site.Params.desc }}
         </p>
@@ -23,10 +23,10 @@
             </li>
         </ul>
 
-        <div>
+        <div class="hover">
             <ul>
                 {{ range .Site.Params.icons }}
-                <li class="horizontal"><a class="blue-grey-text" href="{{ .link }}"><i class="{{ .icon }}"></i></a></li>
+                <li class="horizontal"><a href="{{ .link }}"><i class="{{ .icon }}"></i></a></li>
                 {{ end}}
             </ul>
         </div>
