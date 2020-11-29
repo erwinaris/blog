@@ -1,78 +1,130 @@
 baseURL = "https://erwinaris.github.io/"
-languageCode = "en-us"
-title = "Hi, There !"
-description = "Welcome to my website, learn everything, make something."
 
+languageCode = "en-us"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 theme = "semeru"
 
-[params]
-desc = "Welcome to my website"
-aboutTitle = "About Me"
+
+
+################## menu #######################
+
+[languages]
+[languages.en]
+contentDir = "content/english"
+description = "Welcome to my website, learn everything, make something."
+languageName = "English"
+title = "Hi, There.."
+weight = 1
+
+[languages.en.params]
+
 about = """My name is Erwin Aris prayogo, I live in Lampung, Indonesia. More than 2 years experience in web development and mobile development include wordpress,
             flutter, hugo, python, php, and dart.
             I use GNU/Linux to create and write the code computer program."""
-keywords = "blog, erwin"
-images = ["/img/about-hero.jpg"]
 
-terms = "/terms-of-services/"
+aboutTitle = "About Me"
+desc = "Welcome to my website"
+
+images = ["img/about-hero.jpg"]
+keywords = "blog, erwin"
+
+terms = "/en/terms-of-services/"
+
+# [menu]
+
+[[languages.en.menu.main]]
+URL = "/en/"
+identifier = "home"
+name = "Home"
+weight = 2
+
+[[languages.en.menu.main]]
+URL = "/en/dart/"
+identifier = "dart"
+name = "Dart"
+weight = 3
+
+[[languages.en.menu.main]]
+URL = "/en/portfolio/"
+identifier = "portfolio"
+name = "Portfolio"
+weight = 4
+
+[languages.id]
+contentDir = "content/indonesia"
+description = "Helo selamat datang, jangan lupa belajar."
+languageName = "Indonesia"
+title = "Helo.."
+weight = 2
+
+[languages.id.params]
+
+about = """Nama saya Erwin Aris Prayogo, tinggal di Kota Lampung. 
+            Lebih dari 2 tahun saya sebagai pengembang website dan pengembang aplikasi mobile,
+            termasuk didalamnya wordpress, flutter, hugo, python, php dan dart.
+            saya juga seorang pengguna sistem operasi GNU/Linux"""
+aboutTitle = "Tentang Saya"
+desc = "Selamat Datang"
+images = ["img/about-hero.jpg"]
+keywords = "blog, erwin"
+
+terms = "/id/terms-of-services/"
+
+# [menu]
+
+[[languages.id.menu.main]]
+URL = "/id/"
+identifier = "beranda"
+name = "Beranda"
+weight = 2
+
+[[languages.id.menu.main]]
+URL = "/id/dart/"
+identifier = "dart"
+name = "Dart"
+weight = 3
+
+[[languages.id.menu.main]]
+URL = "/id/portofolio/"
+identifier = "portofolio"
+name = "Portofolio"
+weight = 4
 
 
 ############### css and javascript ##################
 
-
-[[ params.plugins.css]]
+[[params.plugins.css]]
 URL = "plugins/css/materialize.min.css"
 
-[[ params.plugins.css ]]
+[[params.plugins.css]]
 URL = "plugins/css/materialize.css"
 
-[[ params.plugins.js ]]
+[[params.plugins.js]]
 URL = "plugins/js/materialize.js"
 
-[[ params.plugins.js ]]
+[[params.plugins.js]]
 URL = "plugins/js/materialize.min.js"
 
-[[ params.plugins.js ]]
+[[params.plugins.js]]
 URL = "plugins/js/initialize.js"
-
 
 ########### icons fontawesome ################
 
-[[ params.icons ]]
+[[params.icons]]
 icon = "fab fa-facebook-square"
 link = "https://web.facebook.com/erwin.prayoga.359/"
 
-[[ params.icons ]]
+[[params.icons]]
 icon = "fab fa-instagram"
 link = "https://www.instagram.com/erwin_aris_prayogo/"
 
-[[ params.icons ]]
+[[params.icons]]
 icon = "fab fa-linkedin"
 link = "https://www.linkedin.com/in/erwin-aris-prayogo-504119157/"
 
-[[ params.icons ]]
+[[params.icons]]
 icon = "fab fa-github-square"
 link = "https://github.com/erwinaris"
-
-
-################## menu #######################
-[ menu ]
-
-    [[ menu.main ]]
-    name = "Home"
-    identifier = "home"
-    URL = "/"
-    weight = 1
-
-    [[ menu.main ]]
-    name = "Dart"
-    identifier = "dart"
-    URL = "/dart/"
-    weight = 2
-
-    [[ menu.main ]]
-    name = "Portfolio"
-    identifier = "portfolio"
-    URL = "/portfolio/"
-    weight = 3

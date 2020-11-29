@@ -1,20 +1,47 @@
 {{ define "main" }}
 
-<div class="container">
+
+
+<section class="container">
   <h4 class="center white-text">{{ .Title }}</h4>
   <div class="divider"></div><br>
 
   <div class="blue-grey-text">
-    {{ .Content }}
+    <article>
+      {{ .Content }}
+    </article>
   </div>
-</div>
+</section>
 
-<ul class="pagination center">
+<!-- <ul class="pagination center">
   <li class="disabled"><a href="#!"><i class="fas fa-arrow-left"></i></a></li>
   <li class="active"><a href="#!">1</a></li>
   <li class="waves-effect"><a href="#!">2</a></li>
   <li class="waves-effect"><a href="#!"><i class="fas fa-arrow-right"></i></a></li>
-</ul>
+</ul> -->
 
+
+<!-- <ul class="pagination center">
+  {{ with .PrevInSection}}
+  <li class="waves-effect"><a class="previous" href="{{.Permalink}}"> <i class="fas fa-arrow-left"></i></a></li>
+  {{ end }}
+  {{ with .NextInSection }}
+  <li class="waves-effect"><a class="next" href="{{.Permalink}}"> <i class="fas fa-arrow-right"></i></a></li>
+  {{ end }}
+</ul> -->
+
+
+{{ $pages := where site.RegularPages "Section" .Section }}
+<ul class="pagination center hover">
+  {{ with $pages.ByPublishDate.Next . }}
+  <li class="waves-effect"><a title="Next page in {{ .Section }}" href="{{ .Permalink }}"><i
+        class="fas fa-arrow-left"></i></a></li>
+  {{ end }}
+
+  {{ with $pages.ByPublishDate.Prev . }}
+  <li class="waves-effect"><a title="Previous page in {{ .Section }}" href="{{ .Permalink }}"><i
+        class="fas fa-arrow-right"></i></a></li>
+  {{ end }}
+</ul>
 
 {{ end }}

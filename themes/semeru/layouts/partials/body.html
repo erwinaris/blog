@@ -10,8 +10,26 @@
 </div> <br>
 
 <div class="container center images">
-    <img src="img/about-hero.jpg" alt="" class="circle">
+
+    {{ if .IsPage }}
+    {{ with .Params.images }}
+    {{ range first 6 . }}
+    <img src="{{ . | absURL }}" alt="" class="circle">
+    {{ end }}
+    {{ end }}
+    {{ else }}
+    {{ with .Site.Params.images }}
+    {{ range first 6 . }}
+    <img src="{{ . | absURL }}" alt="" class="circle">
+
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+
+
     <div class="container blue-grey-text">
+
         <p>
             {{ .Site.Params.desc }}
         </p>

@@ -5,10 +5,40 @@
 
   <!-- Dropdown Structure -->
   <ul id='dropdown1' class='dropdown-content'>
+    {{ $siteLanguages := site.Languages}}
+    {{ $pageLang := .Page.Lang}}
+    {{- range .Page.AllTranslations }}
+    {{ $translation := . }}
+    {{- range sort $siteLanguages "Weight" "asc" }}
+    {{- if eq $translation.Lang .Lang }}
+    {{ if eq $pageLang .Lang}}
+    <div class="center">
+      <a class="flagselect"
+        href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}{{ .Params.languageFlag }}
+        English</a>
+      {{ else }}
+      <a class="flagnoselect"
+        href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}{{ .Params.languageFlag }}
+        Indonesia</a>
+    </div>
+    {{ end }}
+    {{- end }}
+    {{- end }}
+    {{- end }}
+    <!-- Switch -->
+    <!-- <div class="switch center">
+      <label>
+        English
+        <input type="checkbox">
+        <span class="lever"></span>
+        <a href="/id{{ .Permalink | relURL }}">Indonesia</a>
+      </label>
+    </div> -->
     {{ range .Site.Menus.main }}
     <li><a href="{{ .URL }}">{{.Name}}</a></li>
     {{ end }}
   </ul>
+
 </header>
 
 {{"<!-- End Fixed Navigation -->" | safeHTML}}
