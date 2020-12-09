@@ -12,28 +12,33 @@
     {{- range sort $siteLanguages "Weight" "asc" }}
     {{- if eq $translation.Lang .Lang }}
     {{ if eq $pageLang .Lang}}
-    <div class="center">
-      <a class="flagselect"
-        href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}{{ .Params.languageFlag }}
-        English</a>
-      {{ else }}
-      <a class="flagnoselect"
-        href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}{{ .Params.languageFlag }}
-        Indonesia</a>
+
+    <!-- <div class="center">
+      
+
+    </div> -->
+
+    
+    <!-- Switch -->
+    <div class="switch center">
+      <label>
+        <a href="{{ $translation.Permalink | relURL }}">
+          </a>{{ .Params.languageName }}{{ .Params.languageFlag }}
+        {{ else }} 
+        <input class="ganti" type="checkbox" onClick="">
+
+        <span class="lever"></span>
+        <a href="" >
+          </a>{{ .Params.languageName }}{{ .Params.languageFlag }}
+      </label>
     </div>
+
+
     {{ end }}
     {{- end }}
     {{- end }}
     {{- end }}
-    <!-- Switch -->
-    <!-- <div class="switch center">
-      <label>
-        English
-        <input type="checkbox">
-        <span class="lever"></span>
-        <a href="/id{{ .Permalink | relURL }}">Indonesia</a>
-      </label>
-    </div> -->
+
     {{ range .Site.Menus.main }}
     <li><a href="{{ .URL }}">{{.Name}}</a></li>
     {{ end }}

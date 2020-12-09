@@ -11,3 +11,7 @@ name = "erwin aris prayogo"
 
 {{< img src="/portfolio/bumdesbenah.png" caption="Bumdes adalah Badan Usaha Milik Desa">}}
 
+{{< img src="/portfolio/keum.png" caption="Manufacturing of general spring and clamps for electronic and automotive parts ">}}
+
+{{< img src="/portfolio/man.png" caption="Official website MAN 1 Waykanan">}}
+
