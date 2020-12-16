@@ -36,7 +36,7 @@ void main(List<String> args) {
 
 {{< / highlight >}}
 
-**keterangan** : 
+**keterangan** :
 
 1. _dynamic_ adalah tipe yang didefinisikan dan dapat di isi dengan tipe apapun(boolean, integer, double, atau String).
 

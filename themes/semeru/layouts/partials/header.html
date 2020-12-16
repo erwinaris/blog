@@ -18,18 +18,18 @@
 
     </div> -->
 
-    
+
     <!-- Switch -->
     <div class="switch center">
       <label>
         <a href="{{ $translation.Permalink | relURL }}">
-          </a>{{ .Params.languageName }}{{ .Params.languageFlag }}
-        {{ else }} 
-        <input class="ganti" type="checkbox" onClick="">
+        </a>{{ .Params.languageName }}{{ .Params.languageFlag }}
+        {{ else }}
+        <input id="get" type="checkbox" onclick="hyClick()">
 
         <span class="lever"></span>
-        <a href="" >
-          </a>{{ .Params.languageName }}{{ .Params.languageFlag }}
+        <a href="{{ $translation.Permalink | relURL }}">
+        </a>{{ .Params.languageName }}{{ .Params.languageFlag }}
       </label>
     </div>
 

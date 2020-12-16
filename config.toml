@@ -7,8 +7,6 @@ defaultContentLanguageInSubdir = true
 
 theme = "semeru"
 
-
-
 ################## menu #######################
 
 [languages]
@@ -28,7 +26,7 @@ about = """My name is Erwin Aris prayogo, I live in Lampung, Indonesia. More tha
 aboutTitle = "About Me"
 desc = "Welcome to my website"
 
-images = ["img/about-hero.jpg"]
+images = ["img/code.png"]
 keywords = "blog, erwin"
 
 terms = "/en/terms-of-services/"
@@ -68,11 +66,10 @@ about = """Nama saya Erwin Aris Prayogo, tinggal di Kota Lampung.
             saya juga seorang pengguna sistem operasi GNU/Linux"""
 aboutTitle = "Tentang Saya"
 desc = "Selamat Datang"
-images = ["img/about-hero.jpg"]
+images = ["img/code.png"]
 keywords = "blog, erwin"
 
 terms = "/id/terms-of-services/"
-
 
 # [menu]
 
@@ -94,7 +91,6 @@ identifier = "portofolio"
 name = "Portofolio"
 weight = 4
 
-
 ############### css and javascript ##################
 
 [[params.plugins.css]]
@@ -115,17 +111,17 @@ URL = "plugins/js/initialize.js"
 ########### icons fontawesome ################
 
 [[params.icons]]
-icon = "fab fa-facebook-square"
+icon = "fab fa-facebook-square fa-2x"
 link = "https://web.facebook.com/erwin.prayoga.359/"
 
 [[params.icons]]
-icon = "fab fa-instagram"
+icon = "fab fa-instagram fa-2x"
 link = "https://www.instagram.com/erwin_aris_prayogo/"
 
 [[params.icons]]
-icon = "fab fa-linkedin"
+icon = "fab fa-linkedin fa-2x"
 link = "https://www.linkedin.com/in/erwin-aris-prayogo-504119157/"
 
 [[params.icons]]
-icon = "fab fa-github-square"
+icon = "fab fa-github-square fa-2x"
 link = "https://github.com/erwinaris"
