@@ -9,6 +9,25 @@
 
 </div> <br>
 
+<!-- <div class="jam">
+    <div class="kotak">
+        <span id="jam"></span>:
+        <span id="menit"></span>:
+        <span id="detik"></span>
+
+    </div>
+</div> -->
+
+<!-- <div style="z-index: 9999; position: ;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="117" height="117" viewBox="0 0 117 117" fill="none">
+        <circle opacity="0.1" cx="58.5" cy="58.5" r="58.5" fill="#81c784"></circle>
+    </svg>
+</div> -->
+
+<div class="hire">
+    <img src="/img/hire.svg" alt="">
+</div>
+
 <div class="container center images">
 
     {{ if .IsPage }}
@@ -36,7 +55,8 @@
         <ul class="collapsible">
             <li>
                 <div class="collapsible-header grey darken-4 z-depth-3">
-                    <i class="fas fa-terminal"></i>{{ .Site.Params.aboutTitle}}</div>
+                    <i class="fas fa-terminal"></i>{{ .Site.Params.aboutTitle}}
+                </div>
                 <div class="collapsible-body about"><span>{{ .Site.Params.about }}</span></div>
             </li>
         </ul>
@@ -49,4 +69,9 @@
             </ul>
         </div>
     </div>
+
+    <div class="hire">
+        <img src="/img/hire.svg" alt="">
+    </div>
+
 </div>

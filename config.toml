@@ -14,7 +14,7 @@ theme = "semeru"
 contentDir = "content/english"
 description = "Welcome to my website, learn everything, make something."
 languageName = "English"
-title = "Hi, There.."
+title = "Hi,.."
 weight = 1
 
 [languages.en.params]
@@ -24,9 +24,9 @@ about = """My name is Erwin Aris prayogo, I live in Lampung, Indonesia. More tha
             I use GNU/Linux to create and write the code computer program."""
 
 aboutTitle = "About Me"
-desc = "Welcome to my website"
+desc = "I'm a web & mobile developer"
 
-images = ["img/code.png"]
+images = ["img/erwin.jpg"]
 keywords = "blog, erwin"
 
 terms = "/en/terms-of-services/"
@@ -40,22 +40,22 @@ name = "Home"
 weight = 2
 
 [[languages.en.menu.main]]
-URL = "/en/dart/"
-identifier = "dart"
-name = "Dart"
-weight = 3
-
-[[languages.en.menu.main]]
 URL = "/en/portfolio/"
 identifier = "portfolio"
 name = "Portfolio"
+weight = 3
+
+[[languages.en.menu.main]]
+URL = "/en/dart/"
+identifier = "dart"
+name = "Dart"
 weight = 4
 
 [languages.id]
 contentDir = "content/indonesia"
 description = "Helo selamat datang, jangan lupa belajar."
 languageName = "Indonesia"
-title = "Helo.."
+title = "Hi,.."
 weight = 2
 
 [languages.id.params]
@@ -65,8 +65,8 @@ about = """Nama saya Erwin Aris Prayogo, tinggal di Kota Lampung.
             termasuk didalamnya wordpress, flutter, hugo, python, php dan dart.
             saya juga seorang pengguna sistem operasi GNU/Linux"""
 aboutTitle = "Tentang Saya"
-desc = "Selamat Datang"
-images = ["img/code.png"]
+desc = "Saya seorang pengembang web & aplikasi mobile"
+images = ["img/erwin.jpg"]
 keywords = "blog, erwin"
 
 terms = "/id/terms-of-services/"
@@ -80,15 +80,15 @@ name = "Beranda"
 weight = 2
 
 [[languages.id.menu.main]]
-URL = "/id/dart/"
-identifier = "dart"
-name = "Dart"
-weight = 3
-
-[[languages.id.menu.main]]
 URL = "/id/portofolio/"
 identifier = "portofolio"
 name = "Portofolio"
+weight = 3
+
+[[languages.id.menu.main]]
+URL = "/id/dart/"
+identifier = "dart"
+name = "Dart"
 weight = 4
 
 ############### css and javascript ##################
@@ -109,6 +109,10 @@ URL = "plugins/js/materialize.min.js"
 URL = "plugins/js/initialize.js"
 
 ########### icons fontawesome ################
+
+[[params.icons]]
+icon = "fas fa-envelope fa-2x"
+link = "mailto:erwinaris442@gmail.com"
 
 [[params.icons]]
 icon = "fab fa-facebook-square fa-2x"
