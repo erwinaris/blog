@@ -19,15 +19,14 @@ weight = 1
 
 [languages.en.params]
 
-about = """My name is Erwin Aris prayogo, I live in Lampung, Indonesia. More than 2 years experience in web development and mobile development include wordpress,
-            flutter, hugo, python, php, and dart.
-            I use GNU/Linux to create and write the code computer program."""
+about = """My name is Erwin Aris Prayogo, I live in Lampung, Indonesia. More than 2 years of experience as a web developer, I am also a mobile apps developer using Flutter & design ui / ux.
+            I’m a freelancer, and right now I am looking forward to collaborating with you!"""
 
 aboutTitle = "About Me"
-desc = "I'm a web & mobile developer"
+desc = "I'm a professional web developer"
 
 images = ["img/erwin.jpg"]
-keywords = "blog, erwin"
+keywords = "blog, erwin, erwin aris prayogo, erwin aris"
 
 terms = "/en/terms-of-services/"
 
@@ -60,14 +59,12 @@ weight = 2
 
 [languages.id.params]
 
-about = """Nama saya Erwin Aris Prayogo, tinggal di Kota Lampung. 
-            Lebih dari 2 tahun saya sebagai pengembang website dan pengembang aplikasi mobile,
-            termasuk didalamnya wordpress, flutter, hugo, python, php dan dart.
-            saya juga seorang pengguna sistem operasi GNU/Linux"""
+about = """Nama saya Erwin Aris Prayogo, saya tinggal di Lampung, Indonesia. Berpengalaman lebih dari 2 tahun sebagai pengembang website, saya juga pengembang aplikasi mobile multiplatform menggunakan Flutter & belajar desain ui / ux.
+            Saya seorang freelancer, dan berharap bisa bekerjasama dengan anda!."""
 aboutTitle = "Tentang Saya"
-desc = "Saya seorang pengembang web & aplikasi mobile"
+desc = "Saya adalah seorang pengembang website profesional"
 images = ["img/erwin.jpg"]
-keywords = "blog, erwin"
+keywords = "blog, erwin, erwin aris prayogo, erwin aris"
 
 terms = "/id/terms-of-services/"
 
