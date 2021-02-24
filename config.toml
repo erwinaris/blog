@@ -19,7 +19,7 @@ weight = 1
 
 [languages.en.params]
 
-about = """My name is Erwin Aris Prayogo, I live in Lampung, Indonesia. More than 2 years of experience as a web developer, I am also a mobile apps developer using Flutter & design ui / ux.
+about = """My name is Erwin Aris Prayogo, I live in Lampung, Indonesia. More than 2 years of experience as a web developer, I am also a mobile apps developer using Flutter & ui / ux design.
             I’m a freelancer, and right now I am looking forward to collaborating with you!"""
 
 aboutTitle = "About Me"
