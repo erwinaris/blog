@@ -13,3 +13,10 @@ dan herannya saya mana pernah begitu ?
 waktu itu istri sedang mengajar mahasiswa secara online (daring)sebagai dosen.
 
 12-11-2020
+
+
+======= In my heart and mind ======
+
+1. Bagaimana saya mau berfikir positif ketika saya ikut dengan mertua sedangkan anak kandungnya sendiri bermalas-malasan dengan alasan capek, saya harus ke ladang membantu orang tua kandungnya sendiri tapi oke lah demi berpikir positif saya mulai belajar karena saya ingin lebih baik lagi.
+
+20-03-2021

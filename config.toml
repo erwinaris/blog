@@ -112,12 +112,12 @@ icon = "fas fa-envelope fa-2x"
 link = "mailto:erwinaris442@gmail.com"
 
 [[params.icons]]
-icon = "fab fa-facebook-square fa-2x"
-link = "https://web.facebook.com/erwin.prayoga.359/"
+icon = "fab fa-telegram fa-2x"
+link = "https://t.me/ewinaris"
 
 [[params.icons]]
-icon = "fab fa-instagram fa-2x"
-link = "https://www.instagram.com/erwin_aris_prayogo/"
+icon = "fab fa-whatsapp fa-2x"
+link = "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20perkenalkan%20saya%20Erwin%20Aris%20Prayogo,%20seorang%20web%20developer."
 
 [[params.icons]]
 icon = "fab fa-linkedin fa-2x"
