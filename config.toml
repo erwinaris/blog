@@ -19,7 +19,7 @@ weight = 1
 
 [languages.en.params]
 
-about = """My name is Erwin Aris Prayogo, I live in Lampung, Indonesia. More than 2 years of experience as a web developer, I am also a mobile apps developer using Flutter & ui / ux design.
+about = """My name is Erwin Aris Prayogo, I live in Lampung, Indonesia. More than 2 years of experience as a web developer, I'm also a mobile apps developer using Flutter & ui / ux designer.
             I’m a freelancer, and right now I am looking forward to collaborating with you!"""
 
 aboutTitle = "About Me"
@@ -44,11 +44,11 @@ identifier = "portfolio"
 name = "Portfolio"
 weight = 3
 
-[[languages.en.menu.main]]
-URL = "/en/dart/"
-identifier = "dart"
-name = "Dart"
-weight = 4
+# [[languages.en.menu.main]]
+# URL = "/en/dart/"
+# identifier = "dart"
+# name = "Dart"
+# weight = 4
 
 [languages.id]
 contentDir = "content/indonesia"
@@ -82,11 +82,11 @@ identifier = "portofolio"
 name = "Portofolio"
 weight = 3
 
-[[languages.id.menu.main]]
-URL = "/id/dart/"
-identifier = "dart"
-name = "Dart"
-weight = 4
+# [[languages.id.menu.main]]
+# URL = "/id/dart/"
+# identifier = "dart"
+# name = "Dart"
+# weight = 4
 
 ############### css and javascript ##################
 
@@ -108,16 +108,16 @@ URL = "plugins/js/initialize.js"
 ########### icons fontawesome ################
 
 [[params.icons]]
-icon = "fas fa-envelope fa-2x"
-link = "mailto:erwinaris442@gmail.com"
+icon = "fab fa-whatsapp fa-2x"
+link = "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20perkenalkan%20saya%20Erwin%20Aris%20Prayogo,%20seorang%20web%20developer."
 
 [[params.icons]]
 icon = "fab fa-telegram fa-2x"
 link = "https://t.me/ewinaris"
 
 [[params.icons]]
-icon = "fab fa-whatsapp fa-2x"
-link = "https://api.whatsapp.com/send?phone=+6288213128081&text=Hi,%20perkenalkan%20saya%20Erwin%20Aris%20Prayogo,%20seorang%20web%20developer."
+icon = "fas fa-envelope fa-2x"
+link = "mailto:erwinaris442@gmail.com"
 
 [[params.icons]]
 icon = "fab fa-linkedin fa-2x"
