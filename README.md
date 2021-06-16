@@ -1,4 +1,4 @@
-# blog with Hugo
+# blog with Hugo / Framwork hugo
 
 this files for hugo website
 

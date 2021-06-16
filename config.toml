@@ -23,7 +23,7 @@ about = """My name is Erwin Aris Prayogo, I live in Lampung, Indonesia. More tha
             I’m a freelancer, and right now I am looking forward to collaborating with you!"""
 
 aboutTitle = "About Me"
-desc = "I'm a professional web developer"
+desc = "I'm a FullStack Developer"
 
 images = ["img/erwin.jpg"]
 keywords = "blog, erwin, erwin aris prayogo, erwin aris"
@@ -62,7 +62,7 @@ weight = 2
 about = """Nama saya Erwin Aris Prayogo, saya tinggal di Lampung, Indonesia. Berpengalaman lebih dari 2 tahun sebagai pengembang website, saya juga pengembang aplikasi mobile multiplatform menggunakan Flutter & belajar desain ui / ux.
             Saya seorang freelancer, dan berharap bisa bekerjasama dengan anda!."""
 aboutTitle = "Tentang Saya"
-desc = "Saya adalah seorang pengembang website profesional"
+desc = "Saya adalah seorang FullStack Developer"
 images = ["img/erwin.jpg"]
 keywords = "blog, erwin, erwin aris prayogo, erwin aris"
 
