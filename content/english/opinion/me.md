@@ -20,3 +20,11 @@ waktu itu istri sedang mengajar mahasiswa secara online (daring)sebagai dosen.
 1. Bagaimana saya mau berfikir positif ketika saya ikut dengan mertua sedangkan anak kandungnya sendiri bermalas-malasan dengan alasan capek, saya harus ke ladang membantu orang tua kandungnya sendiri tapi oke lah demi berpikir positif saya mulai belajar karena saya ingin lebih baik lagi.
 
 20-03-2021
+
+
+========= antara sombong membanggakan diri dan menyepelekan orang =============
+
+1. setelah selesai belajar untuk persiapan cpns, istri bilang yuk.. tebak2an dong saya jawab 'malas' katanya kan orang yang bisa tebak2an atau pantun berarti orang itu cerdas karena berfikir cepat. "ingat orang cerdas dan pintar hanya di pekerjakan oleh orang bodoh".
+
+24-07-2021
+
